@@ -25,6 +25,7 @@ body{
 }
 .layout{
     width: 100%;
+    overflow: hidden;
    /* border:1px solid red;*/
     max-width:640px;
     margin:0 auto;
@@ -1137,4 +1138,15 @@ section{
 .essentails .wrap .commoncontainer .swiper .slide .row .text .textbox .detailpage{
     bottom: 10px;
     right: 12px;
+}
+@media(min-width: 640px){
+    .nav-content{
+        display: none;
+    }
+    .backbox{
+        display: none !important;
+    }
+    .footer-notice{
+        display: none;
+    }
 }
